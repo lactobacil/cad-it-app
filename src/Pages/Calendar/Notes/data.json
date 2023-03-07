@@ -1,0 +1,15 @@
+{
+    "entries":[{
+        "country":"Singapore",
+        "value": 10000
+    },
+    {
+        "country":"Malaysia",
+        "value" : 6000
+    },
+    {
+        "country":"Thailand",
+        "value" : 3000
+    }
+]
+}

@@ -1,0 +1,24 @@
+.DateHeader{
+    display: flex;
+    justify-content: space-between;
+    gap: 4vw;
+    padding: 0.5vw;
+    font-size: 1.6vw;
+    font-weight: 500;
+}
+
+.DateNumberHoliday{
+    color: red;
+}
+
+.DateNumberWeekday{
+    color: black;
+}
+
+.MemoContainer{
+    display: flex;
+    flex-direction: column;
+    height: 7.5vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}

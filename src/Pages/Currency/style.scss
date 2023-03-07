@@ -1,0 +1,28 @@
+.Container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: column;
+    align-items: center;
+}
+
+.PageContainer{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5vh solid rgb(6, 77, 122);
+}
+.TableContainer{
+    // height: 100%;
+    // width: 100%;
+    // box-sizing: border-box;
+    // padding: 8vh;
+    // display: flex;
+    // position: relative;
+    // justify-content: center;
+    // border: 0.5vh solid rgb(6, 77, 122);
+    // border-top: none;
+}

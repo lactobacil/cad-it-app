@@ -1,0 +1,53 @@
+.Modal{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    top: 0px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.NoteBorder{
+    width: 25vw;
+    height: 35vh;
+    background-color: rgb(6, 77, 122);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.InputBoxHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.DateBox {
+    border: 1px solid gray;
+    background-color: rgb(17, 63, 124);
+}
+
+.NoteInputBox{
+    position: relative;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 20vw;
+    height: 20vh;
+    background-color: rgb(6, 77, 122);
+    color: white;
+    gap: 1vh;
+}
+
+.ModalToolbox{
+    display: flex;
+    gap: 4vh;
+    justify-content: space-between;
+}
+
+.ModalTitle{
+    font-size: x-large;
+}

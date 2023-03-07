@@ -1,0 +1,88 @@
+.NotesContainer{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+    border: 1px solid blue($color: #000000);
+    position: relative;
+}
+
+.DatesContainer{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    padding: 2vh;
+}
+
+.ToolboxContainer{
+    display: flex;
+    box-sizing: border-box;
+    height: 10vh;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2vh;
+    gap: 2vw;
+    height: max-content;
+}
+
+
+select{
+    background-color: rgb(232, 232, 232);
+    height: 4vh;
+    width: 6vw;
+    border: 1px solid gray;
+
+    &:after {
+        content: "";
+        width: 0.8em;
+        height: 0.5em;
+        background-color: var(--select-arrow);
+        clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+        justify-self: end;  
+    }
+}
+
+.CalendarContainer{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid rgba(6, 77, 122, 1);
+    overflow: auto;
+}
+
+.CalendarDays{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.Days{
+    color: white;
+    background-color: rgba(6, 77, 122, 1);
+    display: flex;
+    height: 7vh;
+    justify-content: center;
+    text-align: center;
+    align-items:center;
+    font-size: larger;
+}
+
+.DaysContainer{
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(7, minmax(200px, auto));
+    flex-grow: 1;
+}
+
+.DateIcon{
+    border: 2px solid rgba(6, 77, 122, 1);
+}

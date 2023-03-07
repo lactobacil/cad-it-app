@@ -1,0 +1,12 @@
+
+$accent-color: rgb(45, 74, 162);
+
+.Title {
+    box-sizing: border-box;
+    width:100%;
+    padding: 0.5vh;
+    background-color: $accent-color;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
